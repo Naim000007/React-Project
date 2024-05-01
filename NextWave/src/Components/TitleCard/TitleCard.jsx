@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./TitleCard.css"
+import { Link } from 'react-router-dom';
 
 
 
@@ -39,10 +40,10 @@ const TitleCard = ({ title, category }) => {
             <div className="card-list" ref={cardsRef}>
                 {
                     apiData.map((card, index) => {
-                        return <div className='card' key={index}>
+                        return <Link to={`/player/${card.id}`} className='card' key={index}>
                             <img src={`https://image.tmdb.org/t/p/w500/` + card.backdrop_path} alt="" />
                             <p>{card.original_title}</p>
-                        </div>
+                        </Link>
                     })
                 }
             </div>
