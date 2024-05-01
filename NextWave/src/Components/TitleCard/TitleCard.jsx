@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./TitleCard.css"
-import cards_data from '../../assets/cards/Cards_data'
+
 
 
 
