@@ -9,10 +9,15 @@ import slide2 from '../../../assets/home/slide2.jpg'
 import slide3 from '../../../assets/home/slide3.jpg'
 import slide4 from '../../../assets/home/slide4.jpg'
 import slide5 from '../../../assets/home/slide5.jpg'
+import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 
 export default function App() {
     return (
-        <>
+        <section>
+            <SectionTitle
+                subHeading={"From 11.00 AM to 10.00 PM"}
+                heading={"Order Online"}
+            />
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
@@ -53,6 +58,6 @@ export default function App() {
                     </h3>
                 </SwiperSlide>
             </Swiper>
-        </>
+        </section>
     );
 }
