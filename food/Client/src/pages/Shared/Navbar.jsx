@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return (
         <div className={`navbar ${active ? "activenav" : ""} max-w-screen-xl`}>
-            <img src={logo} alt="" className='logo' srcset="" />
+            <Link to="/"><img src={logo} alt="" className='logo' srcset="" /></Link>
             <ul className="navbar-menu">
 
                 <li onClick={() => { setMenu("home") }} className={menu === "home" ? "active" : ""}><Link to='/'>Home</Link></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li onClick={() => { setMenu("contact-us") }} className={menu === "contact-us" ? "active" : ""}>contact us</li>
             </ul>
             <div className="navbar-right">
-                <img src={search_icon}></img>
+                <Link><img src={search_icon}></img></Link>
                 <div className="navbar-search-icon">
                     <img src={basket_icon} alt="" srcset="" />
                     <div className="dot"></div>
