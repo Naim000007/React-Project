@@ -3,6 +3,7 @@ import useMenu from '../../../hooks/useMenu'
 import { Helmet } from 'react-helmet-async'
 import Cover from '../../Shared/Cover'
 import MenuItem from '../../Shared/MenuItem'
+import { Link } from 'react-router-dom'
 
 const MenuCatagory = ({ items, title, img }) => {
 
@@ -16,6 +17,7 @@ const MenuCatagory = ({ items, title, img }) => {
                     items.map(item => <MenuItem key={item._id} item={item} />)
                 }
             </div>
+            <Link to={'/order'}><button className='btn btn-outline border-0 border-b-4 mt-4'>Order Now</button></Link>
         </div>
     )
 }
