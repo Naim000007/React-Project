@@ -27,7 +27,7 @@ const Navbar = () => {
 
                 <li onClick={() => { setMenu("home") }} className={menu === "home" ? "active" : ""}><Link to='/'>Home</Link></li>
                 <li onClick={() => { setMenu("menu") }} className={menu === "menu" ? "active" : ""}><Link to='/menu'>Our Menu</Link></li>
-                <li onClick={() => { setMenu("mobile-app") }} className={menu === "mobile-app" ? "active" : ""}>mobile-app</li>
+                <li onClick={() => { setMenu("order") }} className={menu === "order" ? "active" : ""}><Link to={'/order'}>Order</Link></li>
                 <li onClick={() => { setMenu("contact-us") }} className={menu === "contact-us" ? "active" : ""}>contact us</li>
             </ul>
             <div className="navbar-right">
