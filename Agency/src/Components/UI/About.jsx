@@ -39,7 +39,7 @@ const About = () => {
                         <div className='choose_item-wrapper'>
                             {
                                 chooseData.map((item, index) => (
-                                    <div className="choose_us-item">
+                                    <div key={index} className="choose_us-item">
                                         <span className="choose_us-icon"><i className={item.icon}></i></span>
                                         <div className="choose_us-text">
 
