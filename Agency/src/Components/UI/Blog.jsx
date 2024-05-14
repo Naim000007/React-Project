@@ -11,13 +11,24 @@ const Blog = () => {
             desc: "To know about Work. Watch some video f....",
             linkUrl: "#"
         },
-
+        {
+            imgUrl: videoImg,
+            title: "Video",
+            desc: "To know about Work. Watch some video f....",
+            linkUrl: "#"
+        },
         {
             imgUrl: caseStudy,
             title: "Case Study",
             desc: "To know about Work. Watch some video f....",
             linkUrl: "#"
         },
+        {
+            imgUrl: videoImg,
+            title: "Video",
+            desc: "To know about Work. Watch some video f....",
+            linkUrl: "#"
+        }
     ]
     return (
         <section>
