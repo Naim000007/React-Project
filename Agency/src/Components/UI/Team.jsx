@@ -59,7 +59,6 @@ const Team = () => {
                             <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
                             <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
                         </ul>
-                        <button class="btn draw-border">Follow</button>
                         <button class="btn draw-border">Message</button>
 
                     </div>
@@ -79,8 +78,6 @@ const Team = () => {
                                         <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
                                         <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
                                     </ul>
-                                    <button class="btn draw-border">Follow</button>
-                                    <button class="btn draw-border">Message</button>
 
                                 </div>
                             ))
