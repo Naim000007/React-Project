@@ -18,7 +18,7 @@ const countrData = [
 
 const Counter = () => {
     return (
-        <section className='counter'>
+        <section className='counter' id='projects'>
             <div className='container'>
                 <div className='counter_wrapper'>
                     {
