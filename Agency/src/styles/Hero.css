@@ -52,3 +52,40 @@
 .secondary_btn {
     background: var(--btn-primary-bg);
 }
+
+@media only screen and (max-width: 992px) {
+    .hero_content h2 {
+        font-size: 2rem;
+        line-height: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .hero_content h2 {
+        font-size: 1.5rem;
+        line-height: 45px;
+    }
+
+    .hero_content p {
+        font-size: 0.9rem;
+    }
+
+    .primary_btn .secondary_btn {
+        font-style: 0.5rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 786px) {
+
+    .hero_content,
+    .hero_img {
+        width: 100%;
+    }
+
+    .hero_wrapper {
+        flex-direction: column;
+    }
+}

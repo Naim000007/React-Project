@@ -1,0 +1,32 @@
+.newsletter {
+    /* background: var(--card-bg); */
+    margin-bottom: 5%;
+}
+
+.newsletter_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter_content,
+.newsletter_from {
+    width: 50%;
+
+}
+
+.newsletter_from input {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.newsletter_from {
+    padding: 0.4rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.8rem;
+}

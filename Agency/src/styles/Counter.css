@@ -32,3 +32,38 @@
 .counter_title {
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 992px) {
+    .counter_number {
+        font-style: 2rem;
+    }
+
+    .counter_title {
+        font-size: 1.2rem;
+    }
+
+    .counter_item {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .counter_wrapper {
+        font-style: 1.5rem;
+    }
+
+    .counter_title {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .counter_wrapper {
+        flex-direction: column;
+    }
+
+    .counter_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

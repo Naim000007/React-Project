@@ -1,7 +1,6 @@
 import React from 'react'
 import "../../styles/Hero.css"
 import heroDarkImg from "../../assets/images/hero-img.png"
-
 const Hero = () => {
     return (
         <section className='hero_section'>

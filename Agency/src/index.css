@@ -96,3 +96,15 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .section {
+    padding: 40px 0;
+  }
+}
