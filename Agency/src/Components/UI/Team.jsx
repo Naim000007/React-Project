@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../styles/Team.css"
 import team01 from "../../assets/images/team-01.png"
-
+import "swiper/css";
 const teamMember = [
     {
         imgUrl: team01,
@@ -28,6 +28,7 @@ const teamMember = [
 
 const Team = () => {
     return (
+
         <section className='our_team'>
             <div className='container'>
                 <div className="team_content">

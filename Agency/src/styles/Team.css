@@ -47,8 +47,9 @@
 
 .container1 {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    /* grid-template-columns: 300px 300px 300px 300px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 50px;
     justify-content: center;
     align-items: center;
@@ -231,3 +232,5 @@
     font-size: 1.5em;
     color: var(--counter-color);
 }
+
+/*  */

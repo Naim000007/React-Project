@@ -33,6 +33,14 @@
     font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 568px) {
+    .counter_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .counter_number {
         font-style: 2rem;
