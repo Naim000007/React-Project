@@ -1,9 +1,9 @@
 import React from 'react'
 
-const write = () => {
+const Write = () => {
     return (
         <div>write</div>
     )
 }
 
-export default write
+export default Write
