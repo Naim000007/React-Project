@@ -12,9 +12,6 @@ const db = mysql.createConnection({
     database: "test",
 });
 
-app.get("/", (req, res) => {
-    res.send("Hello World!");
-});
 
 app.get("/books", (req, res) => {
     const q = "SELECT * FROM books";
