@@ -7,7 +7,14 @@ const Star = ({ noOfStars = 5 }) => {
     const [hover, setHover] = useState(0);
 
     const handleClick = (index) => {
-        setRating(index);
+        if (index === 1) {
+            setRating(0)
+        }
+        if (rating === index) {
+            setRating(0);  // Reset to zero if the same star is clicked
+        } else {
+            setRating(index);
+        }
     };
 
     const handleMouseOver = (index) => {
@@ -27,9 +34,10 @@ const Star = ({ noOfStars = 5 }) => {
                     onMouseMove={() => handleMouseOver(index + 1)}
                     onMouseLeave={handleMouseLeave}
                     size={40}
-                    color={(hover || rating) > index ? "red" : "grey"}
+                    color={(hover || rating) > index ? "yellow" : "grey"}
                 />
             ))}
+            {/* {rating === 0 && <div className='no-rating'>No rating</div>} */}
         </div>
     );
 };
