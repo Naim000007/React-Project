@@ -1,5 +1,7 @@
 
 import "./App.css"
+import BasicUseEffect from "./Hooks/UseEffect/BasicUseEffect"
+import Fetchapi from "./Hooks/UseEffect/Fetchapi"
 import UseEffect from "./Hooks/UseEffect/UseEffect"
 import CounterUseState from "./Hooks/UseState/CounterUseState"
 import FormUseState from "./Hooks/UseState/FormUseState"
@@ -13,7 +15,9 @@ const App = () => {
       {/* <UseState /> */}
       {/* <CounterUseState /> */}
       {/* <FormUseState /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      {/* <Fetchapi /> */}
+      <BasicUseEffect />
     </div>
   )
 }
