@@ -3,6 +3,7 @@ import "./App.css"
 import BasicUseEffect from "./Hooks/UseEffect/BasicUseEffect"
 import Fetchapi from "./Hooks/UseEffect/Fetchapi"
 import UseEffect from "./Hooks/UseEffect/UseEffect"
+import FocusUseRef from "./Hooks/UseRef/FocusUseRef"
 import UseRefHook from "./Hooks/UseRef/UseRefHook"
 import CounterUseState from "./Hooks/UseState/CounterUseState"
 import FormUseState from "./Hooks/UseState/FormUseState"
@@ -19,7 +20,8 @@ const App = () => {
       {/* <UseEffect /> */}
       {/* <Fetchapi /> */}
       {/* <BasicUseEffect /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <FocusUseRef />
     </div>
   )
 }
