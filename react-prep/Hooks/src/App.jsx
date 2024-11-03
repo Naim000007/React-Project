@@ -1,5 +1,6 @@
 
 import "./App.css"
+import UseEffect from "./Hooks/UseEffect/UseEffect"
 import CounterUseState from "./Hooks/UseState/CounterUseState"
 import FormUseState from "./Hooks/UseState/FormUseState"
 import UseState from './Hooks/UseState/UseState'
@@ -11,7 +12,8 @@ const App = () => {
     <div>
       {/* <UseState /> */}
       {/* <CounterUseState /> */}
-      <FormUseState />
+      {/* <FormUseState /> */}
+      <UseEffect />
     </div>
   )
 }
