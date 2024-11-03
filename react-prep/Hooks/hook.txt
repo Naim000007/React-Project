@@ -1,0 +1,6 @@
+What is Hook ?
+Hook are special functions that allow us to use state and other react features in functional components 
+
+in other words hooks are the functi9ons that make functional components work like class components
+
+React Hooks simplify the code imporves the readability and reusability and overall performance of the application 
