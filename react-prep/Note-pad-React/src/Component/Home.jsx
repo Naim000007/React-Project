@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useSearchParams } from 'react-router-dom'
+import { addTopPastes, updateToPaste } from '../Redux/PastSlice'
 
 const Home = () => {
     const [title, setTitle] = useState('')
